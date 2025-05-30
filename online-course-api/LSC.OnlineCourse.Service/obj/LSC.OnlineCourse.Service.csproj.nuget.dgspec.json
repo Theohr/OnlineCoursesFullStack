@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj": {}
+    "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj": {}
   },
   "projects": {
-    "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
+    "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj",
+        "projectUniqueName": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj",
         "projectName": "LSC.OnlineCourse.Core",
-        "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj",
+        "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\obj\\",
+        "outputPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,7 +45,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -85,23 +86,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj": {
+    "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj",
+        "projectUniqueName": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj",
         "projectName": "LSC.OnlineCourse.Data",
-        "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj",
+        "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\obj\\",
+        "outputPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -124,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
-                "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj"
+              "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
+                "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj"
               }
             }
           }
@@ -139,7 +154,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -175,23 +191,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj": {
+    "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj",
+        "projectUniqueName": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj",
         "projectName": "LSC.OnlineCourse.Service",
-        "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj",
+        "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Service\\LSC.OnlineCourse.Service.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Service\\obj\\",
+        "outputPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -214,11 +244,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
-                "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj"
+              "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj": {
+                "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Core\\LSC.OnlineCourse.Core.csproj"
               },
-              "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj": {
-                "projectPath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj"
+              "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj": {
+                "projectPath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.Data\\LSC.OnlineCourse.Data.csproj"
               }
             }
           }
@@ -232,7 +262,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -266,12 +297,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZf2CJG96iI=",
+  "dgSpecHash": "gRqa5o1d33s=",
   "success": true,
-  "projectFilePath": "C:\\Git\\online-course-api\\LSC.OnlineCourse.API\\LSC.OnlineCourse.API.csproj",
+  "projectFilePath": "C:\\Git\\OnlineCoursesFullStack\\online-course-api\\LSC.OnlineCourse.API\\LSC.OnlineCourse.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\8.0.2\\aspnetcore.healthchecks.sqlserver.8.0.2.nupkg.sha512",
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
@@ -163,7 +163,11 @@
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\T.Herodotou\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.14\\microsoft.netcore.app.host.win-x64.8.0.14.nupkg.sha512"
   ],
   "logs": []
 }
